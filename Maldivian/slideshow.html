@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head><link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="slaidshow.css">
+	<title></title>
+
+</head>
+<body>
+<div class="header">
+	<p>TOP 5 PLACES YOU HAVE TO VISIT !!!</p>
+</div>
+  <div class="slideshow">
+	<div class="slide" id="pic1"><img src="allislands.jpeg"></div>
+     <div class="slide" id="pic2"><img src="house.jpeg"></div>
+    <div class="slide" id="pic3"><img src="jar.jpeg"></div>
+    <div class="slide" id="pic4"><img src="second.jpeg"></div>
+     <button onclick="plusDivs(-1)"></button>
+     <button onclick="plusDivs(1)"></button>
+</div>
+    
+
+
+
+    <script type="text/javascript">
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n){
+            showDivs(slideIndex+=n);
+        }
+        function showDivs(n){
+            
+            var x = document.getElementsByClassName("slide");
+            if (n > x.length){slideIndex = 1}
+            if (n < 1){slideIndex = x.length}
+            var i = 0;
+            while (i<x.length){
+                x[i].style.display = "none";
+                i++;
+            }
+            x[slideIndex-1].style.display = "block";
+        }
+    </script>
+    </div>
+    <div class="secondIsland">
+    	<div class="three"></div>
+        <div class="four"></div>
+        
+
+
+    </body>
+</html>

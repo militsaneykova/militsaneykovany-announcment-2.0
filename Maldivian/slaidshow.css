@@ -1,0 +1,39 @@
+body{
+	margin: 0 auto ;
+	width: 1200px;
+    background: lightgreen;
+}
+
+.slideshow{
+   width: 400px;
+   height: 200px;
+   position: absolute;
+   margin-top: 100px;
+   margin-left: 250px;
+   border: 10px bold;
+
+}   
+.slideshow button{
+    resize: 30px;
+    background-color: white;
+    color: #FFFFFF;
+    float: right;
+    background-position: center;
+    padding: 10px;
+    border: solid #66d9ff; 
+    border-radius: 30%;
+
+}
+
+img{
+	width: 700px;
+	height: 500px;
+
+}
+.header{
+	font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+
+}

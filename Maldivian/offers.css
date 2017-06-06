@@ -1,0 +1,76 @@
+
+body{
+	background-color:  #b3e6ff;
+	font-family: verdana;
+	margin: 0 auto;
+
+}
+#header{
+	text-align: center;
+	padding-bottom: 40px;
+}
+.container{
+	
+	display : flex;
+	
+}
+#one{
+	margin-left: 50px;
+	flex: 1;
+    
+}
+.two{
+	flex: 1;
+	margin-right: 50px;
+	text-align: right;
+}
+.three{
+	display: flex;
+}
+#pickayak{
+    flex: 1;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.p2{
+	margin-top: 150px;
+	flex: 1;
+	text-align: right;
+	margin-right: 50px;
+
+}
+.fourth{
+	display: flex;
+}
+#picnature{
+	flex:1;
+}
+.p4{
+	flex: 1;
+	margin-left: 200px;
+	margin-bottom: 300px;
+}
+#pichike{
+	margin-left: 50px;
+	margin-top: 90px
+}
+
+#pikswim{
+	margin-left: 50px;
+
+}
+#picnature{
+	margin-left: 450px;
+}
+      
+
+
+#beach{
+	margin-top: 700px;
+}
+
+  .sport{
+  	width: 300px;
+  	height: 200px;
+  }
+

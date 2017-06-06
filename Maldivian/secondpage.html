@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slideshow</title>
+</head>
+<body>
+	<div class="main">
+<img class="slide" src="allislands.jpeg" alt="">
+<img class="slide" src="house.jpeg" alt="">
+<img class="slide" src="maldiviancal.jpeg" alt="">
+<img class="slide" src="map.jpeg" alt="">
+<img class="slide" src="pool.jpeg" alt="">
+<img class="slide" src="second.jpeg" alt="">
+<button onclick="plusDiv(-1)">back</button>
+<button onclick="plusDiv(1)">forward</button>
+    </div>
+
+<script type="text/javascript">
+  
+  <script type="text/javascript">
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    function plusDivs(n) {
+        showDivs(slideIndex += n)
+    }
+    function showDivs(n) {
+        var i = 0;
+        var x = document.getElementsByClassName("slide");
+        if (n > x.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = x.length
+        }
+        while(i < x.length) {
+            x[i].style.display = "none";
+            i++;
+        }
+        x[slideIndex-1].style.display = "block";
+    }
+</script>
+  }
+
+
+</script>
+</body>
+</html>
